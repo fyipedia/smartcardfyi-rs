@@ -1,0 +1,20 @@
+[package]
+name = "smartcardfyi"
+version = "0.1.0"
+edition = "2021"
+authors = ["FYIPedia"]
+description = "Smart card platform reference, EMV standard lookup, and Java Card encyclopedia -- async API client for smartcardfyi.com."
+license = "MIT"
+repository = "https://github.com/fyipedia/smartcardfyi-rs"
+homepage = "https://smartcardfyi.com"
+documentation = "https://docs.rs/smartcardfyi"
+readme = "README.md"
+keywords = ["smart-card", "emv", "java-card", "sim", "api-client"]
+categories = ["api-bindings", "data-structures"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
