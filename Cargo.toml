@@ -1,6 +1,6 @@
 [package]
 name = "smartcardfyi"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["FYIPedia"]
 description = "Smart card platform reference, EMV standard lookup, and Java Card encyclopedia -- async API client for smartcardfyi.com."
